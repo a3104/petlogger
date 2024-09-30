@@ -1,0 +1,21 @@
+{
+  "name": "petlogger",
+  "version": "1.0.0",
+  "description": "A project using Svelte, Material UI, and TypeScript",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "dependencies": {
+    "svelte": "^3.0.0",
+    "@material-ui/core": "^4.0.0"
+  },
+  "devDependencies": {
+    "rollup": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "typescript": "^4.0.0",
+    "@rollup/plugin-typescript": "^8.0.0"
+  }
+}
